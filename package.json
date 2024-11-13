@@ -5,9 +5,11 @@
   "source": "index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "require": "./dist/index.cjs",
-    "default": "./dist/index.module.js"
+    "default": "./dist/index.module.js",
+    "types": "./dist/index.d.ts"
   },
   "type": "module",
   "scripts": {
@@ -21,6 +23,10 @@
   "keywords": [
     "vite-plugin",
     "esm.sh"
+  ],
+  "files": [
+    "dist/",
+    "README.md"
   ],
   "author": "DaniAkash",
   "license": "ISC",

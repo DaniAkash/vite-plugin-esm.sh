@@ -22,7 +22,7 @@ const importmap = {
   imports,
 }
 
-export const useImportMap = (): PluginOption => {
+export const useESMImport = (): PluginOption => {
   return {
     name: 'use-import-map',
     config() {
